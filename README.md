@@ -69,7 +69,7 @@ response = requests.get(
     params={
         "query": "https://www.patreon.com/example-user",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
@@ -241,7 +241,7 @@ response = requests.get(
     params={
         "query": "creator",
     },
-    timeout=60,
+    timeout=120,
 )
 response.raise_for_status()
 data = response.json()
