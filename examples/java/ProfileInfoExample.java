@@ -14,7 +14,7 @@ public class ProfileInfoExample {
     }
 
     public static void main(String[] args) throws Exception {
-        String query = "query=" + enc("https://www.patreon.com/cfemen");
+        String query = "query=" + enc("https://www.patreon.com/example-user");
 
         HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("https://api.piloterr.com/v2/patreon/profile/info?" + query))

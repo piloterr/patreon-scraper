@@ -3,7 +3,7 @@
 // Usage: PILOTERR_API_KEY=your-key php profile_info.php
 
 $params = http_build_query([
-    'query' => 'https://www.patreon.com/cfemen',
+    'query' => 'https://www.patreon.com/example-user',
 ]);
 
 $ch = curl_init('https://api.piloterr.com/v2/patreon/profile/info?' . $params);

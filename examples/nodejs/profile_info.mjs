@@ -2,7 +2,7 @@
 // Usage: PILOTERR_API_KEY=your-key node profile_info.mjs
 
 const params = new URLSearchParams({
-  "query": "https://www.patreon.com/cfemen",
+  "query": "https://www.patreon.com/example-user",
 });
 
 const response = await fetch(`https://api.piloterr.com/v2/patreon/profile/info?${params}`, {
